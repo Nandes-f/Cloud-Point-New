@@ -10,6 +10,7 @@ const PointCloud = () => {
   const generatePerlinNoise = (x, y) => {
     return noise.perlin2(x * 0.07, y * 0.06) * 10; // Use Perlin noise for z values
   };
+  
 
   const points = useMemo(() => {
     const numPoints = 640 * 640;
