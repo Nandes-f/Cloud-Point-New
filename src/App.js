@@ -8,7 +8,7 @@ const PointCloud = () => {
   const noise = new Noise(Math.random()); // Create a new Noise instance
 
   const generatePerlinNoise = (x, y) => {
-    return noise.perlin2(x * 0.07, y * 0.06) * 10; // Use Perlin noise for z values
+    return noise.perlin2(x * 0.07, y * 0.06) * 10; 
   };
   
 
