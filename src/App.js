@@ -13,6 +13,7 @@ const PointCloud = () => {
   
 
   const points = useMemo(() => {
+    
     const numPoints = 640 * 640;
     const positions = new Float32Array(numPoints * 3);
     for (let i = 0; i < numPoints; i++) {
